@@ -7,19 +7,36 @@
         </router-link>
 
         <div class="header__menu">
-          <router-link to="/about" class="header__menu-item"
+          <router-link
+            to="/about"
+            class="header__menu-item"
+            active-class="active-link"
             >О БРЕНДЕ</router-link
           >
-          <router-link to="/products" class="header__menu-item"
+          <router-link
+            to="/products"
+            class="header__menu-item"
+            active-class="active-link"
             >ПРОДУКЦИИ</router-link
           >
-          <router-link to="/" class="header__menu-item"
+          <router-link
+            to="/"
+            class="header__menu-item"
+            active-class="active-link"
             >ПРЕИМУЩЕСТВА</router-link
           >
-          <router-link to="/" class="header__menu-item"
+          <router-link
+            to="/"
+            class="header__menu-item"
+            active-class="active-link"
             >ОТКРЫТЬ КЛУБ</router-link
           >
-          <router-link to="/" class="header__menu-item">КОНТАКТЫ</router-link>
+          <router-link
+            to="/"
+            class="header__menu-item"
+            active-class="active-link"
+            >КОНТАКТЫ</router-link
+          >
         </div>
 
         <div class="header__actions">
